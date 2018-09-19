@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "Navn": "Bruschetta",
+    "Kategori": "Forret",
+    "Pris": 59,
+    "IMG": "",
+    "Beskrivelse": "6 Stk Bruschetta serverert med tomater, hvidløg og basilikum."
+  },
+  {
+    "id": 2,
+    "Navn": "Carpaccio",
+    "Kategori": "Forret",
+    "Pris": 49,
+    "IMG": "",
+    "Beskrivelse": "Papirtynde skiver oksefile serveret med rocola og parmasan."
+  },
+  {
+    "id": 3,
+    "Navn": "Risotto",
+    "Kategori": "Forret",
+    "Pris": 47,
+    "IMG": "",
+    "Beskrivelse": "Serveret med svampe, løg, hvidløg, persille og parmasan."
+  },
+  {
+    "id": 4,
+    "Navn": "Carbonara",
+    "Kategori": "Hovedret",
+    "Pris": 139,
+    "IMG": "",
+    "Beskrivelse": "Spagetti serveret med guanciale, hvidløg, parmasan og peper."
+  },
+  {
+    "id": 5,
+    "Navn": "Aglio e Olio",
+    "Kategori": "Hovedret",
+    "Pris": 127,
+    "IMG": "",
+    "Beskrivelse": "Linguine serveret persille og hvidløg."
+  },
+  {
+    "id": 6,
+    "Navn": "Pizza",
+    "Kategori": "Hovedret",
+    "Pris": 109,
+    "IMG": "",
+    "Beskrivelse": ""
+  },
+  {
+    "id": 7,
+    "Navn": "Gnocchi",
+    "Kategori": "Hovedret",
+    "Pris": 119,
+    "IMG": "",
+    "Beskrivelse": "Små dupplings lavet af kartofler. Gnocchi er serveret med ærter og parmasan."
+  },
+  {
+    "id": 8,
+    "Navn": "Gelato",
+    "Kategori": "Dessert",
+    "Pris": 59,
+    "IMG": "",
+    "Beskrivelse": "Blåbær gelato serveret med blåbær."
+  },
+  {
+    "id": 9,
+    "Navn": "Beignets",
+    "Kategori": "Dessert",
+    "Pris": 79,
+    "IMG": "",
+    "Beskrivelse": "Serveret med sukker."
+  },
+  {
+    "id": 10,
+    "Navn": "Cannoli",
+    "Kategori": "Dessert",
+    "Pris": 79,
+    "IMG": "",
+    "Beskrivelse": "3 stk Cannoli serveret med knuste pistacie og sukker."
+  },
+  {
+    "id": 11,
+    "Navn": "Rødvin glas",
+    "Kategori": "Drikkevare",
+    "Pris": 49,
+    "IMG": "",
+    "Beskrivelse": "2015 Antinori Il Bruciato"
+  },
+  {
+    "id": 12,
+    "Navn": "Hvidvin glas",
+    "Kategori": "Drikkevare",
+    "Pris": 47,
+    "IMG": "",
+    "Beskrivelse": "2016 Bramito, Chardonnay"
+  },
+  {
+    "id": 13,
+    "Navn": "Rødvin flaske",
+    "Kategori": "Drikkevare",
+    "Pris": 299,
+    "IMG": "",
+    "Beskrivelse": "2015 Antinori Il Bruciato"
+  },
+  {
+    "id": 14,
+    "Navn": "Hvidvin flaske",
+    "Kategori": "Drikkevare",
+    "Pris": 109,
+    "IMG": "",
+    "Beskrivelse": "2016 Bramito, Chardonnay"
+  }
+]
