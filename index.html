@@ -16,32 +16,74 @@
     </section>
 
 
-<section class="guide">
+
+    <nav>
         <button class="menu-item" kategori="Alle"><h2>Alle</h2></button>
         <button class="menu-item" kategori="Forret"><h2>Forret</h2></button>
         <button class="menu-item" kategori="Hovedret"><h2>Hovedret</h2></button>
         <button class="menu-item" kategori="Dessert"><h2>Dessert</h2></button>
         <button class="menu-item" kategori="Drikkevare"><h2>Drikkevare</h2></button>
-</section>
+    </nav>
 
 
 <main class="container">
-        <section class="data-container"></section>
+    <section class="data-container"></section>
     </main>
-    <template class="data-template">
-      <article class="ret">
-          <img src="" alt=""><br>
-          <h2></h2><br>
-          <span class="kategori"></span>
-           Pris: <span class="pris"></span>
-      </article>
-   </template>
+        <template class="data-template">
+          <article class="ret">
+              <img src="" alt=""><br>
+              <h2></h2><br>
+              <span class="Kategori"></span><br>
+               Pris: <span class="Pris"></span>
+          </article>
+       </template>
 
 
 <footer>
 
 </footer>
     <script>
+        let kategoriFilter = "Alle";
+        let dest = document.querySelector(".data-container");
+        document.addEventListener("DOMContentLoaded", hentJson);
+
+        async function hentJson(){
+            let myJson = await fetch("Menu.json");
+            retter = await myJson.json();
+            visRetter();
+        }
+
+        document.querySelectorAll(".menu-item").forEach(knap => {
+            knap.addEventListener("click", filtering)
+
+        });
+
+        function filtering() {
+            dest.textContent = ""
+            kategoriFilter = this.getAttribute("Kategori")
+            visRetter();
+
+        };
+
+
+        function visRetter(){
+            let dest = document.querySelector(".data-container");
+            let temp = document.querySelector(".data-template");
+            retter.forEach(ret=>{
+
+                if (ret.kategori == kategoriFilter || kategoriFilter == "Alle") {
+
+                let klon = temp.cloneNode(true).content;
+                klon.querySelector("h2").textContent = ret.Navn;
+                klon.querySelector(".Kategori").textContent = ret.Kategori;
+                klon.querySelector(".Beskrivelse").textContent = ret.Beskrivelse;
+                klon.querySelector(".Pris").textContent = ret.Pris;
+                klon.querySelector("IMG").src = ret.IMG;
+
+                };
+                dest.appendChild(klon);
+                }
+            )};
 
     </script>
     </body>

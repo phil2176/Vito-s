@@ -4,7 +4,7 @@
     "Navn": "Bruschetta",
     "Kategori": "Forret",
     "Pris": 59,
-    "IMG": "",
+    "IMG": "Vito_imgs/Bruschetta.jpg",
     "Beskrivelse": "6 Stk Bruschetta serverert med tomater, hvidløg og basilikum."
   },
   {
@@ -12,7 +12,7 @@
     "Navn": "Carpaccio",
     "Kategori": "Forret",
     "Pris": 49,
-    "IMG": "",
+    "IMG": "Vito_imgs/Carpaccio.jpg",
     "Beskrivelse": "Papirtynde skiver oksefile serveret med rocola og parmasan."
   },
   {
@@ -20,7 +20,7 @@
     "Navn": "Risotto",
     "Kategori": "Forret",
     "Pris": 47,
-    "IMG": "",
+    "IMG": "Vito_imgs/Risotto.jpg",
     "Beskrivelse": "Serveret med svampe, løg, hvidløg, persille og parmasan."
   },
   {
@@ -28,7 +28,7 @@
     "Navn": "Carbonara",
     "Kategori": "Hovedret",
     "Pris": 139,
-    "IMG": "",
+    "IMG": "Vito_imgs/Carbonara.jpg",
     "Beskrivelse": "Spagetti serveret med guanciale, hvidløg, parmasan og peper."
   },
   {
@@ -36,7 +36,7 @@
     "Navn": "Aglio e Olio",
     "Kategori": "Hovedret",
     "Pris": 127,
-    "IMG": "",
+    "IMG": "Vito_imgs/Aglio_e_Olio.jpg",
     "Beskrivelse": "Linguine serveret persille og hvidløg."
   },
   {
@@ -44,7 +44,7 @@
     "Navn": "Pizza",
     "Kategori": "Hovedret",
     "Pris": 109,
-    "IMG": "",
+    "IMG": "Vito_imgs/Pizza.jpg",
     "Beskrivelse": ""
   },
   {
@@ -52,7 +52,7 @@
     "Navn": "Gnocchi",
     "Kategori": "Hovedret",
     "Pris": 119,
-    "IMG": "",
+    "IMG": "Vito_imgs/Gnocchi.jpg",
     "Beskrivelse": "Små dupplings lavet af kartofler. Gnocchi er serveret med ærter og parmasan."
   },
   {
@@ -60,7 +60,7 @@
     "Navn": "Gelato",
     "Kategori": "Dessert",
     "Pris": 59,
-    "IMG": "",
+    "IMG": "Vito_imgs/Gelato.jpg",
     "Beskrivelse": "Blåbær gelato serveret med blåbær."
   },
   {
@@ -68,7 +68,7 @@
     "Navn": "Beignets",
     "Kategori": "Dessert",
     "Pris": 79,
-    "IMG": "",
+    "IMG": "Vito_imgs/Beignets.jpg",
     "Beskrivelse": "Serveret med sukker."
   },
   {
@@ -76,7 +76,7 @@
     "Navn": "Cannoli",
     "Kategori": "Dessert",
     "Pris": 79,
-    "IMG": "",
+    "IMG": "Vito_imgs/Cannoli.jpg",
     "Beskrivelse": "3 stk Cannoli serveret med knuste pistacie og sukker."
   },
   {
@@ -84,7 +84,7 @@
     "Navn": "Rødvin glas",
     "Kategori": "Drikkevare",
     "Pris": 49,
-    "IMG": "",
+    "IMG": "Vito_imgs/Rødvin.jpeg",
     "Beskrivelse": "2015 Antinori Il Bruciato"
   },
   {
@@ -92,7 +92,7 @@
     "Navn": "Hvidvin glas",
     "Kategori": "Drikkevare",
     "Pris": 47,
-    "IMG": "",
+    "IMG": "Vito_imgs/Hvidvin.jpeg",
     "Beskrivelse": "2016 Bramito, Chardonnay"
   },
   {
@@ -100,7 +100,7 @@
     "Navn": "Rødvin flaske",
     "Kategori": "Drikkevare",
     "Pris": 299,
-    "IMG": "",
+    "IMG": "Vito_imgs/Rødvin.jpeg",
     "Beskrivelse": "2015 Antinori Il Bruciato"
   },
   {
@@ -108,7 +108,7 @@
     "Navn": "Hvidvin flaske",
     "Kategori": "Drikkevare",
     "Pris": 109,
-    "IMG": "",
+    "IMG": "Vito_imgs/Hvidvin.jpeg",
     "Beskrivelse": "2016 Bramito, Chardonnay"
   }
 ]
